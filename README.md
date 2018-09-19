@@ -1,64 +1,64 @@
 # Architecture Decision Record 
 
-L'architecture decision record (ADR) est un document permettant de tracer toutes les décisions d'architecture prises sur la conception d'un produit, en précisant le contexte et en mesurant les conséquences.
+An architectural decision record (ADR) is a document that describe an important decision with its context and consequences.
 
-Cette pratique a été classée dans la catégorie ADOPT par Thoughworks en novembre 2017.
+Lightweight Architecture Decision Records was rated in ADOPT part of the Technology Radar by Thoughworks in november 2017.
 
-## Qu'est ce que l'ADR ?
+## What is ADR ?
 
-L'architecture decision record (ADR) est un document permettant de tracer toutes les décisions d'architecture prises sur la conception d'un produit, en précisant le contexte et en mesurant les conséquences.
+An architectural decision record (ADR) is a document that describe an important decision with its context and consequences.
 
-Une décision d'architecture est un choix d'implémentation réalisée dans un produit pour respecter une exigence.
+An architectural decision is a design choice realized in a product to respect a requierement.
 
-Un éxigence est un élément contraignant affectant un produit de façon mesurable.
+A Requirement is a constrain element that affect a product with measurable effect.
 
-Le Catalogue des décisions regroupe l'ensemble des ADR d'un produit.
+The decision log groups all ADRs for a particular product.
 
-Le but de ce projet est de fournir le guide de bonnes pratiques afin de tracer toutes vos décisions d'architecture ainsi qu'un template d'ADR à appliquer à vos produits.
+This project will help you in this practice with somme guideline to log all of yours architecture decision and with a template of ADR.
 
-## Comment initialiser le catalogue de décisions
+## How to start decision log
 
-Rien de plus simple, il suffit de créer un répertoire à la racine de votre projet.
+Nothing more simple, just create a directory at the root of your project.
 
-Ensuite pour chaque décision, il suffira de créer un fichier, de renseigner la décision dedans puis de le committer.
+Then for each decision, it will be enough to create a file, to inform the decision in then and to commit it.
 
-## Convention de nommage
+## Naming convention
 
-Nous allons utiliser une convention de nommage assez simple.
+We will use a simple naming convention.
 
-La convention de nommage :
+The naming convention :
 ```
-On préfixe avec la date AAAAMMJJ.
-On affiche la décision.
-On utilise l'extension Markdown.
+Prefix with the date AAAAMMJJ.
+Short name of the decision.
+Use Markdown extension.
 ```
 
-Exemples :
+Examples :
 ```
 20180102_Choose_js_framework.md
 20180210_Choose_graph_database.md
 20180601_Replace_js_framework.md
 ```
 
-## Contenu
+## Content
 
-Une décision d'architecture doit toujours respecter les pratiques suivantes :
-- Etre datée. Quand la décision a été prise.
-- Etre rationnelle. Il faut expliquer pourquoi la décision a été prise.
-- Etre immuable. Le contenu d'une décision n'est pas modifiable. 
-- Etre unique. Elle ne doit décrire qu'une seule décision.
+An Architecture Decision must respect this follwing practices :
+- Dated. When the decision was taken.
+- Rationnal. Explain why the decision was taken.
+- Immuable. The content should not be altered. 
+- Unique. Only one decision by record.
 
-Le contexte doit toujours être précisé. Il faut expliquer pourquoi la décision a été prise :
-- Priorité business à adresser rapidement.
-- Choix d'organisation.
-- Compétences dans l'équipe.
+The context should be explain. Explain why decision was taken :
+- Business priority.
+- Organisation.
+- Skills.
 
-Les conséquences doivent être mesurées :
-- Bonne approche. Le choix est pertinent et sera stable dans le temps.
-- Mauvais choix sous contrainte. Expliquer ce qui peut se passer et ce qui sera à surveiller.
+The consequences must be measurables :
+- Right approach. The decision is pertinent and will be stable in time.
+- Wrong approach under constraint. Explain what will be arrived and what is under survey.
 
-Une décision d'architecture peut remplacer une ancienne décision :
-- Identifier l'ADR remplacée et la renseigner dans la nouvelle décision.
+An Architecture Decision can remplace an older :
+- Identify replaced ADR and log it in the new.
 
 
 ## Sources
