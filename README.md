@@ -1,32 +1,32 @@
 # Architecture Decision Record 
 
-An architectural decision record (ADR) is a document that describe an important decision with its context and consequences.
+An architectural decision record (ADR) is a document that describes an important decision with its context and consequences.
 
 Lightweight Architecture Decision Records was rated in ADOPT part of the Technology Radar by Thoughworks in november 2017.
 
 ## What is ADR ?
 
-An architectural decision record (ADR) is a document that describe an important decision with its context and consequences.
+An architectural decision record (ADR) is a document that describes an important decision with its context and consequences.
 
-An architectural decision is a design choice realized in a product to respect a requierement.
+An architectural decision is a design choice realized in a product to respect a requirement.
 
-A Requirement is a constrain element that affect a product with measurable effect.
+A Requirement is a constraint element that affect a product with measurable effect.
 
 The decision log groups all ADRs for a particular product.
 
-This project will help you in this practice with somme guideline to log all of yours architecture decision and with a template of ADR.
+This project will help you in this practice with somme guidelines to log all of your architecture decision and with a template of ADR.
 
 ## How to start decision log
 
-Nothing more simple, just create a directory at the root of your project.
+Nothing more simple, just create a directory ADR at the root of your project.
 
-Then for each decision, it will be enough to create a file, to inform the decision in then and to commit it.
+Then for each decision, it will be enough to create a file that will inform what the decision is and then commit it.
 
 ## Naming convention
 
 We will use a simple naming convention.
 
-The naming convention :
+The naming convention:
 ```
 Prefix with the date AAAAMMJJ.
 Short name of the decision.

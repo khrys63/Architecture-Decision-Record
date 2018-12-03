@@ -1,0 +1,50 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.checkstyle
+*.md.html
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*dependency-reduced-pom.xml
+
+#VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# SVN
+.svn
+/bin
+
+# Netbeans
+nb-configuration.xml
+nbactions.xml
+
+# nodejs
+npm-debug.log
+node_modules/
+dist/
+
+*/build/
+*/bin/
+
+#gateway
+logs/
+temp/
+
+
+#db
+*.db
+
+id_rsa
+.vagrant
+roles
