@@ -12,7 +12,7 @@ In the context of {use case} and facing {a concern} we decided for {option} to a
 
 Staus of decision : {status} (proposed, accepted, rejected, deprecated, superseded ...)
 
-## Contexte
+## Context
 
 Describe here the Decision context :
 
@@ -22,7 +22,7 @@ Describe here the Decision context :
 - technique
 - financial
 
-This is the story that explain the problem we want resolve.
+This is the story that explains the problem we want resolve.
 
 ## Solution 
 
@@ -32,11 +32,11 @@ Describe here how the Decision will resolve the concerned problem.
 
 Describe here what are the consequences of this Decision.
 How are they measured?
-How are thes supported?
+How are they supported?
 
-Explain the results over the long term, describe what it will work, not work, change, updgrde, downgrade...
+Explain the results over the long term, describe what it will work, not work, change, updgrade, downgrade...
 
-Add a SWOT scheama if necessary.
+Add a SWOT schema if necessary.
 
 ## Links
 
