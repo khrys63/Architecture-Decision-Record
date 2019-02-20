@@ -10,7 +10,7 @@ Stakeholder involved in the decision : {deciders}.
 
 In the context of {use case} and facing {a concern} we decided for {option} to achieve {goal} accepting {downside}.
 
-Staus of decision : {status} (proposed, accepted, rejected, deprecated, superseded ...)
+Status of decision : {status} (proposed, accepted, rejected, deprecated, superseded ...)
 
 ## Context
 
